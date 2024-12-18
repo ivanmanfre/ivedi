@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "next/link";
-import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Menu } from "lucide-react";
+import React from 'react'
+import Link from 'next/link'
+import { Button } from "@/components/ui/button"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Menu } from 'lucide-react'
 
 const MobileMenu = () => {
   return (
@@ -19,24 +19,23 @@ const MobileMenu = () => {
       </SheetTrigger>
       <SheetContent side="right" className="w-[300px] sm:w-[400px]">
         <nav className="flex flex-col space-y-4 mt-8">
-          {["Blog", "Casos de Estudio", "Cómo Funciona", "Sobre Nosotros"].map(
-            (item) => (
-              <Link
-                key={item}
-                href="#"
-                className="text-gray-600 hover:text-pink-600 py-2 text-lg font-medium transition duration-150 ease-in-out"
-              >
-                {item}
-              </Link>
-            )
-          )}
+          {["Blog", "Casos de Estudio", "Cómo Funciona", "Sobre Nosotros"].map((item) => (
+            <Link
+              key={item}
+              href="#"
+              className="text-gray-600 hover:text-pink-600 py-2 text-lg font-medium transition duration-150 ease-in-out"
+            >
+              {item}
+            </Link>
+          ))}
           <Button className="bg-pink-600 text-white hover:bg-pink-700 font-medium px-4 py-2 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
             Contacto
           </Button>
         </nav>
       </SheetContent>
     </Sheet>
-  );
-};
+  )
+}
 
-export default MobileMenu;
+export default MobileMenu
+
