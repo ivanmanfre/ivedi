@@ -1,14 +1,15 @@
-import { Card } from "@/components/ui/card"
+import { Card } from "@/components/ui/card";
+import { LandingPage } from "../components/landing-page";
 
 const posts = [
   {
     title: "First Blog Post",
     description: "Description of your first blog post",
     date: "2024-12-17",
-    slug: "first-post"
-  }
+    slug: "first-post",
+  },
   // Add more posts as needed
-]
+];
 
 export default function BlogPage() {
   return (
@@ -24,5 +25,5 @@ export default function BlogPage() {
         ))}
       </div>
     </div>
-  )
+  );
 }
