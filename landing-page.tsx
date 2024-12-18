@@ -250,7 +250,6 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      </section>
 
       {/* Comparison Section */}
       <section className="py-24 bg-white">
