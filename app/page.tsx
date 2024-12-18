@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -137,7 +138,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute top-1/2 right-0 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-1/2 right-0 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
         <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </main>
 
@@ -578,7 +579,7 @@ export default function Home() {
                 <li><Link href="#" className="hover:text-pink-400 transition duration-300">Campañas de Ads</Link></li>
                 <li><Link href="#" className="hover:text-pink-400 transition duration-300">Asistente Virtual IA</Link></li>
                 <li><Link href="#" className="hover:text-pink-400 transition duration-300">Automatización de Marketing</Link></li>
-                <li><Link href="#" className="hover:text-pink-400 transition duration-300">Gestión de Redes Sociales</Link></li>
+                <li><Link href="#" className="hover:textpink-400 transition duration-300">Gestión de Redes Sociales</Link></li>
               </ul>
             </div>
             <div>
