@@ -5,9 +5,8 @@ import { Card } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import Link from "next/link"
 import { Inter } from 'next/font/google'
-import { Check, BarChart3, FolderKanban, Users, Bot, LayoutGrid, FileText, CheckCircle2, Instagram, MessageSquare, Mail, Database, Share2, ChevronLeft, ChevronRight, Search, Star, Calendar, ArrowRight, Zap, Target, Cog, BarChart, PieChart, ArrowUpRight } from 'lucide-react'
+import { Check, BarChart3, Users, Bot, LayoutGrid, FileText, CheckCircle2, Instagram, MessageSquare, Mail, Database, Share2, ChevronLeft, ChevronRight, Search, Star, Calendar, ArrowRight, Zap, Target, Cog, BarChart, PieChart, ArrowUpRight, DollarSign, Clock, TrendingUp, XCircle, Building2, CheckCircle } from 'lucide-react'
 import MobileMenu from '@/components/mobile-menu'
-import { DollarSign, Clock, TrendingUp, XCircle, Building2, CheckCircle } from 'lucide-react'
 import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
