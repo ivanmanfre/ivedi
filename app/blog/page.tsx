@@ -1,5 +1,4 @@
-import { Card } from "@/components/ui/card";
-import { LandingPage } from "../components/landing-page";
+import { Card } from "../../components/ui/card"; // Changed from @/components
 
 const posts = [
   {
@@ -8,7 +7,6 @@ const posts = [
     date: "2024-12-17",
     slug: "first-post",
   },
-  // Add more posts as needed
 ];
 
 export default function BlogPage() {
