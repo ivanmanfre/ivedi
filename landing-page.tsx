@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import Link from "next/link"
 import { Inter } from 'next/font/google'
-import { Check, BarChart3, FolderKanban, Users, Bot, LayoutGrid, FileText, CheckCircle2, Twitter, MessageSquare, Mail, Database, Share2, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Check, BarChart3, Users, Bot, LayoutGrid, FileText, CheckCircle2, Twitter, MessageSquare, Mail, Database, Share2, ChevronLeft, ChevronRight } from 'lucide-react'
 import MobileMenu from '@/components/mobile-menu'
 import Head from 'next/head'
 
